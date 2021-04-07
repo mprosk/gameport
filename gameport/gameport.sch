@@ -292,15 +292,6 @@ Wire Wire Line
 Connection ~ 4850 6700
 Wire Wire Line
 	5350 7100 5350 7200
-Wire Wire Line
-	1700 1750 1800 1750
-Wire Wire Line
-	1800 1850 1700 1850
-Wire Wire Line
-	1800 1750 1800 1850
-Wire Wire Line
-	1800 1750 1900 1750
-Connection ~ 1800 1750
 $Comp
 L power:GND #PWR08
 U 1 1 605DB370
@@ -1159,23 +1150,23 @@ Connection ~ 5400 3550
 $Comp
 L Amplifier_Operational:TL074 U2
 U 1 1 606D4B99
-P 8750 1900
-F 0 "U2" H 8750 2267 50  0000 C CNN
-F 1 "TL074" H 8750 2176 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 8700 2000 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 8800 2100 50  0001 C CNN
-	1    8750 1900
+P 7150 4200
+F 0 "U2" H 7150 4567 50  0000 C CNN
+F 1 "TL074" H 7150 4476 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 7100 4300 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 7200 4400 50  0001 C CNN
+	1    7150 4200
 	1    0    0    -1  
 $EndComp
 $Comp
 L Amplifier_Operational:TL074 U2
 U 4 1 606D9BCE
-P 10450 3250
-F 0 "U2" H 10450 2883 50  0000 C CNN
-F 1 "TL074" H 10450 2974 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 10400 3350 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 10500 3450 50  0001 C CNN
-	4    10450 3250
+P 8800 4300
+F 0 "U2" H 8800 3933 50  0000 C CNN
+F 1 "TL074" H 8800 4024 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 8750 4400 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 8850 4500 50  0001 C CNN
+	4    8800 4300
 	1    0    0    1   
 $EndComp
 $Comp
@@ -1401,23 +1392,23 @@ $EndComp
 $Comp
 L Amplifier_Operational:TL074 U2
 U 3 1 606D822F
-P 8800 4300
-F 0 "U2" H 8800 3933 50  0000 C CNN
-F 1 "TL074" H 8800 4024 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 8750 4400 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 8850 4500 50  0001 C CNN
-	3    8800 4300
+P 10450 3250
+F 0 "U2" H 10450 3650 50  0000 C CNN
+F 1 "TL074" H 10450 3550 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 10400 3350 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 10500 3450 50  0001 C CNN
+	3    10450 3250
 	1    0    0    1   
 $EndComp
 $Comp
 L Amplifier_Operational:TL074 U2
 U 2 1 606D67EC
-P 7150 4200
-F 0 "U2" H 7150 4567 50  0000 C CNN
-F 1 "TL074" H 7150 4476 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 7100 4300 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 7200 4400 50  0001 C CNN
-	2    7150 4200
+P 8750 1900
+F 0 "U2" H 8750 2267 50  0000 C CNN
+F 1 "TL074" H 8750 2176 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 8700 2000 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 8800 2100 50  0001 C CNN
+	2    8750 1900
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1566,7 +1557,7 @@ F 1 "22k" H 8981 2245 50  0000 R CNN
 F 2 "Potentiometer_THT:Potentiometer_Bourns_3296Y_Vertical" H 9050 2200 50  0001 C CNN
 F 3 "~" H 9050 2200 50  0001 C CNN
 	1    9050 2200
-	-1   0    0    -1  
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	9050 2350 9050 2400
@@ -1649,4 +1640,11 @@ Connection ~ 9700 4300
 Wire Wire Line
 	9300 4300 9200 4300
 Connection ~ 9200 4300
+Wire Wire Line
+	1700 1750 1900 1750
+NoConn ~ 1700 1850
+Text Label 7200 1800 0    50   ~ 0
+PWM_X
+Text Label 5600 4100 0    50   ~ 0
+PWM_Y
 $EndSCHEMATC
