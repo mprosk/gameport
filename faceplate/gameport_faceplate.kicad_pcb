@@ -55,8 +55,8 @@
     (mod_edge_width 0.12)
     (mod_text_size 1 1)
     (mod_text_width 0.15)
-    (pad_size 3.5 3.5)
-    (pad_drill 3)
+    (pad_size 12 12)
+    (pad_drill 9)
     (pad_to_mask_clearance 0.051)
     (solder_mask_min_width 0.25)
     (aux_axis_origin 0 0)
@@ -117,7 +117,7 @@
     (pad "" thru_hole circle (at 0 -16.65) (size 5.5 5.5) (drill 3) (layers *.Cu *.Mask))
   )
 
-  (module modular:Jack (layer F.Cu) (tedit 6019FF7B) (tstamp 605594C8)
+  (module modular:Jack (layer F.Cu) (tedit 6077412F) (tstamp 605594C8)
     (at 112.5 137.7)
     (path /60554805)
     (fp_text reference H4 (at 0 7.5) (layer F.SilkS) hide
@@ -127,11 +127,11 @@
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_circle (center 0 0) (end 7 0) (layer F.CrtYd) (width 0.12))
-    (pad 1 thru_hole circle (at 0 0) (size 12 12) (drill 10) (layers *.Cu *.Mask)
+    (pad 1 thru_hole circle (at 0 0) (size 12 12) (drill 9) (layers *.Cu *.Mask)
       (net 1 GND))
   )
 
-  (module modular:Jack (layer F.Cu) (tedit 6019FF7B) (tstamp 605594C2)
+  (module modular:Jack (layer F.Cu) (tedit 6077412A) (tstamp 605594C2)
     (at 112.5 109.76)
     (path /60554542)
     (fp_text reference H3 (at 0 7.5) (layer F.SilkS) hide
@@ -141,11 +141,11 @@
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_circle (center 0 0) (end 7 0) (layer F.CrtYd) (width 0.12))
-    (pad 1 thru_hole circle (at 0 0) (size 12 12) (drill 10) (layers *.Cu *.Mask)
+    (pad 1 thru_hole circle (at 0 0) (size 12 12) (drill 9) (layers *.Cu *.Mask)
       (net 1 GND))
   )
 
-  (module modular:Jack (layer F.Cu) (tedit 6019FF7B) (tstamp 605594BC)
+  (module modular:Jack (layer F.Cu) (tedit 60774121) (tstamp 605594BC)
     (at 112.5 81.82)
     (path /6055426E)
     (fp_text reference H2 (at 0 7.5) (layer F.SilkS) hide
@@ -155,11 +155,11 @@
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_circle (center 0 0) (end 7 0) (layer F.CrtYd) (width 0.12))
-    (pad 1 thru_hole circle (at 0 0) (size 12 12) (drill 10) (layers *.Cu *.Mask)
+    (pad 1 thru_hole circle (at 0 0) (size 12 12) (drill 9) (layers *.Cu *.Mask)
       (net 1 GND))
   )
 
-  (module modular:Jack (layer F.Cu) (tedit 6019FF7B) (tstamp 605594B6)
+  (module modular:Jack (layer F.Cu) (tedit 6077411C) (tstamp 605594B6)
     (at 112.5 53.88)
     (path /60553C9E)
     (fp_text reference H1 (at 0 7.5) (layer F.SilkS) hide
@@ -169,7 +169,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_circle (center 0 0) (end 7 0) (layer F.CrtYd) (width 0.12))
-    (pad 1 thru_hole circle (at 0 0) (size 12 12) (drill 10) (layers *.Cu *.Mask)
+    (pad 1 thru_hole circle (at 0 0) (size 12 12) (drill 9) (layers *.Cu *.Mask)
       (net 1 GND))
   )
 
